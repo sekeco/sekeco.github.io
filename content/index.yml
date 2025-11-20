@@ -1,0 +1,19 @@
+seo:
+    title: "Meet Sekeco, an Eclectic Digital Agency"
+    description: "Making a well furnished branding solely for what you're hoping"
+hero:
+    title: Making a well furnished branding solely for what you're hoping
+    description: Engaged in identity design, business development, and IT consultant. Thrive your essential needs by building your foundation with swiftness and ease.
+stats:
+    - value: "300+"
+      label: "Completed Projects"
+      description: "Successfully delivered projects across various industries"
+    - value: "100+"
+      label: "Satisfied Clients"
+      description: "Businesses that trust us with their brand and digital presence"
+    - value: "50+"
+      label: "Eclectic Freelancers"
+      description: "Talented professionals collaborating on projects"
+    - value: "8+"
+      label: "Years Experience"
+      description: "Delivering excellence in design and development"
