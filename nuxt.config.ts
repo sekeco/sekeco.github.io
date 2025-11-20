@@ -31,7 +31,7 @@ export default defineNuxtConfig({
     },
 
     ogImage: {
-        strictNuxtContentPaths: true
+        enabled: false
     },
 
     gtag: {

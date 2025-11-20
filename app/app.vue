@@ -105,10 +105,19 @@ useHead({
     }
 })
 
-defineOgImageComponent('NuxtSeo', {
+// defineOgImageComponent('NuxtSeo', {
+//     title: config.public.appName,
+//     description: config.public.appDescription,
+// });
+
+useSeoMeta({
     title: config.public.appName,
     description: config.public.appDescription,
-});
+    ogImage: '/og-image.png',
+    twitterImage: '/og-image.png',
+    twitterTitle: config.public.appName,
+    twitterDescription: config.public.appDescription,
+})
 </script>
 
 <template>
