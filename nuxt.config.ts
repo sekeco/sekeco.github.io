@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    ssr: false,
+
     modules: [
         '@nuxt/ui',
         '@nuxt/eslint',
@@ -86,5 +88,11 @@ export default defineNuxtConfig({
             prefix: 'custom',
             dir: './app/assets/icons'
         }]
+    },
+
+    nitro: {
+        prerender: {
+            autoSubfolderIndex: false
+        }
     }
 })
