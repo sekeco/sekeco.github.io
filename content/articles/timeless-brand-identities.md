@@ -6,7 +6,6 @@ author: "Aisha Rahman"
 category: "Case Study"
 tags: ["branding", "case study", "design process"]
 image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800"
-slug: "creating-timeless-brand-identities"
 featured: true
 ---
 

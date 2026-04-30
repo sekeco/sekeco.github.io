@@ -5,9 +5,13 @@ description: "Digital platform development for Islamic family content, providing
 published: 2023-01-25
 keywords: "islamic content, family, web development, community platform, religious education"
 status: "done"
-slug: "maslahat-islamic-family"
 category: ["Identity Design", "Web Development"]
-images: ["/projects/maslahat-1.jpg", "/projects/maslahat-2.jpg", "/projects/maslahat-3.jpg"]
+images:
+    [
+        "/projects/maslahat-1.jpg",
+        "/projects/maslahat-2.jpg",
+        "/projects/maslahat-3.jpg",
+    ]
 class: "lg:col-span-2"
 featured: true
 ---

@@ -6,7 +6,6 @@ author: "Maria Santos"
 category: "Photography"
 tags: ["photography", "product photography", "tips"]
 image: "https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?w=800"
-slug: "photography-tips-for-stunning-product-shots"
 featured: false
 ---
 

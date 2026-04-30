@@ -13,8 +13,7 @@ export default defineContentConfig({
                 published: z.string(),
                 keywords: z.string(),
                 status: z.string(),
-                slug: z.string(),
-                category: z.array(z.enum(Enum.ProjectCategory.map(c => c.title))).optional(),
+                category: z.array(z.enum(Enum.ProjectCategory.map(c => c.title) as [string, ...string[]])).optional(),
                 images: z.array(z.string()).optional(),
                 class: z.string().optional(),
                 featured: z.boolean().optional()
@@ -62,7 +61,6 @@ export default defineContentConfig({
                 category: z.enum(Enum.ArticleCategory.map(c => c.title) as [string, ...string[]]),
                 tags: z.array(z.string()),
                 image: z.string().optional(),
-                slug: z.string().optional(),
                 featured: z.boolean().optional()
             })
         })

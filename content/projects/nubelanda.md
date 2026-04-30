@@ -5,18 +5,17 @@ description: "A conference on faith, climate justice, and global peace. Leverage
 published: 2025-01-13
 keywords: "4th PCINU Belanda, conference, faith, climate justice, global peace, call for paper"
 status: "done"
-slug: "bic-pcinu-belanda"
 ---
 
 I contributed to the organization of the 4th PCINU Belanda Biennial International Conference, focusing on the theme "Harmony in Turbulence: The Intersection of Faith, Climate Justice, and Global Peace."
 
 ## Key Features
 
--   **Logo Design**
+- **Logo Design**
     - Conceptualized and designed the official logo for the 4th PCINU Belanda Biennial International Conference, reflecting the theme of "Harmony in Turbulence."
     - Created multiple logo variations for different applications (website, social media, print materials).
     - Ensured the logo was visually appealing, memorable, and aligned with the conference's brand identity.
--   **Website Design Development**
+- **Website Design Development**
     - Designed and developed the official conference website using Laravel Filament, a powerful web application framework.
     - Implemented key features such as: User-friendly registration system for attendees and speakers, comprehensive conference schedule and program information, speaker profiles and abstracts, online payment gateway integration, interactive map and venue information, news and updates section.
     - Conducted user testing to gather feedback and iterate on the design.

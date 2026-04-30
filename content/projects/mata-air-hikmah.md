@@ -5,9 +5,7 @@ description: "Brand identity and website development for an Islamic educational 
 published: 2024-03-10
 keywords: "islamic foundation, education, branding, web development, community"
 status: "done"
-slug: "yayasan-mata-air-hikmah"
 category: ["Identity Design", "Web Development"]
-featured: true
 ---
 
 We created a comprehensive brand identity and digital platform for Yayasan Mata Air Hikmah, an Islamic educational foundation dedicated to community development.

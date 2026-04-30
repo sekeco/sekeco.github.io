@@ -5,7 +5,6 @@ description: "Corporate identity and digital platform development for a major oi
 published: 2023-04-22
 keywords: "oil palm, plantation, corporate identity, web development, sustainability"
 status: "done"
-slug: "tania-selatan-oil-palm"
 category: ["Identity Design", "Web Development"]
 images: ["/projects/tania-selatan.jpg"]
 class: "lg:col-span-2"

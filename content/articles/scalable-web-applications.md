@@ -6,7 +6,6 @@ author: "Brian Thompson"
 category: "Technology"
 tags: ["web development", "scalability", "architecture"]
 image: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800"
-slug: "building-scalable-web-applications"
 featured: false
 ---
 

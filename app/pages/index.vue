@@ -72,7 +72,9 @@ const customize = (content: string) => content.replace(/stroke-width="[^"]*"/g, 
                 <template #links>
                     <div class="relative inline-block">
                         <NeonBorder :color="['#615fff', '#00a6f4', '#ff2056']" :border-radius="50" />
-                        <UButton color="neutral" variant="ghost" label="Let's Collaborate" trailing-icon="i-lucide-arrow-right" size="xl" class="rounded-full px-4 bg-default" />
+                        <ContactFormModal>
+                            <UButton color="neutral" variant="ghost" label="Let's Collaborate" trailing-icon="i-lucide-arrow-right" size="xl" class="rounded-full px-4 bg-default" />
+                        </ContactFormModal>
                     </div>
                     <UButton variant="ghost" color="neutral" label="See Our Products" trailing-icon="i-lucide-arrow-right" size="xl" class="rounded-full px-4" />
                 </template>
@@ -110,7 +112,7 @@ const customize = (content: string) => content.replace(/stroke-width="[^"]*"/g, 
                         <UButton variant="ghost" color="neutral" label="View All Projects" trailing-icon="i-lucide-arrow-right" size="lg" class="rounded-full px-3" to="/projects" />
                     </template>
                     <UPageGrid class="gap-4">
-                        <UPageCard v-for="(project, index) in projects" :key="index" :title="project.title" :description="project.description" :to="`/projects/${project.slug}`" :ui="{ leading: 'gap-1', container: project.images ? 'lg:grid-cols-3 p-4! lg:items-start' : undefined, wrapper: project.images ? 'lg:col-span-2 p-2' : undefined, title: 'text-2xl font-medium my-2', description: 'text-muted' }" :class="project.class" :orientation="project.images ? 'horizontal' : 'vertical'" variant="soft">
+                        <UPageCard v-for="(project, index) in projects" :key="index" :title="project.title" :description="project.description" :to="project.path" :ui="{ leading: 'gap-1', container: project.images ? 'lg:grid-cols-3 p-4! lg:items-start' : undefined, wrapper: project.images ? 'lg:col-span-2 p-2' : undefined, title: 'text-2xl font-medium my-2', description: 'text-muted' }" :class="project.class" :orientation="project.images ? 'horizontal' : 'vertical'" variant="soft">
                             <template #leading>
                                 <UBadge v-for="category in project.category" :key="category" :label="category" color="neutral" variant="subtle" class="rounded-full px-3" />
                             </template>
@@ -177,7 +179,7 @@ const customize = (content: string) => content.replace(/stroke-width="[^"]*"/g, 
                         badge: { label: article.category },
                         authors: [{ name: article.author, avatar: { icon: 'i-lucide-user' } }],
                         image: { src: article.image },
-                        to: `/articles/${article.slug}`
+                        to: article.path
                     }))" />
                 </UPageSection>
 
@@ -205,7 +207,9 @@ const customize = (content: string) => content.replace(/stroke-width="[^"]*"/g, 
             <UPageSection>
                 <UPageCTA title="Start Your Journey with Sekeco" description="Partner with us to unlock innovative solutions that drive growth and transform your business." variant="soft" orientation="horizontal">
                     <template #links>
-                        <UButton label="Get a Quote" size="xl" trailing-icon="i-lucide-arrow-right" to="https://wa.me/628986606000" target="_blank" />
+                        <ContactFormModal>
+                            <UButton label="Get a Quote" size="xl" trailing-icon="i-lucide-arrow-right"/>
+                        </ContactFormModal>
                         <UButton variant="outline" label="View Our Work" size="xl" trailing-icon="i-lucide-arrow-right" to="/projects" />
                     </template>
                     <UPageCard class="max-lg:hidden w-min ms-auto rounded-full" variant="soft" :ui="{ container: 'p-12!' }">

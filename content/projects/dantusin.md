@@ -5,7 +5,6 @@ description: "A comprehensive branding and web development project for a modern 
 published: 2022-06-15
 keywords: "agricultural, branding, web development, sustainable farming, technology"
 status: "done"
-slug: "dantusin-modern-agricultural"
 category: ["Identity Design", "Web Development"]
 featured: true
 ---

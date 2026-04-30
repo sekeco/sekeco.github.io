@@ -6,7 +6,6 @@ author: "Brian Thompson"
 category: "Technology"
 tags: ["web development", "trends", "technology"]
 image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800"
-slug: "web-development-trends-2025"
 featured: true
 ---
 

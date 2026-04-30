@@ -5,7 +5,6 @@ description: "Full-stack e-commerce platform development with modern features, s
 published: 2022-12-08
 keywords: "e-commerce, web development, online store, payment integration, shopping platform"
 status: "done"
-slug: "afaada-ecommerce"
 category: ["Web Development"]
 featured: false
 ---

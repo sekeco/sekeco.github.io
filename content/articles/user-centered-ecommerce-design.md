@@ -6,7 +6,6 @@ author: "Kevin Zhang"
 category: "Design"
 tags: ["ux design", "e-commerce", "user experience"]
 image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800"
-slug: "user-centered-ecommerce-design"
 featured: false
 ---
 

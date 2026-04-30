@@ -41,47 +41,47 @@ const categories = computed<ButtonProps[]>(() => Enum.ProjectCategory.map(_categ
                         v-bind="category"
                     />
                 </template>
-                <Transition
-                    name="fade"
-                    mode="out-in"
-                >
-                    <UPageColumns
-                        v-if="projects?.length"
-                        class="gap-4 space-y-4"
-                    >
-                        <TransitionGroup name="fade">
-                            <UBlogPost
-                                v-for="project in projects"
-                                :key="project.path"
-                                :title="project.title"
-                                :description="project.description"
-                                :to="project.path"
-                                variant="soft"
-                                :image="project.images?.[0]"
-                                :ui="{ header: 'aspect-auto', description: 'text-sm text-muted' }"
-                            >
-                                <template #badge>
-                                    <UBadge
-                                        v-for="cat in project.category"
-                                        :key="cat"
-                                        :label="cat"
-                                        color="neutral"
-                                        variant="subtle"
-                                        class="rounded-full px-3"
-                                    />
-                                </template>
-                            </UBlogPost>
-                        </TransitionGroup>
-                    </UPageColumns>
-                    <UEmpty
-                        v-else
-                        icon="i-lucide-search"
-                        title="No Projects Found"
-                        description="No projects found in this category."
-                        variant="naked"
-                    />
-                </Transition>
             </UPageHero>
+            <Transition
+                name="fade"
+                mode="out-in"
+            >
+                <UPageColumns
+                    v-if="projects?.length"
+                    class="gap-4 space-y-4"
+                >
+                    <TransitionGroup name="fade">
+                        <UBlogPost
+                            v-for="project in projects"
+                            :key="project.path"
+                            :title="project.title"
+                            :description="project.description"
+                            :to="project.path"
+                            variant="soft"
+                            :image="project.images?.[0]"
+                            :ui="{ header: 'aspect-auto', description: 'text-sm text-muted' }"
+                        >
+                            <template #badge>
+                                <UBadge
+                                    v-for="cat in project.category"
+                                    :key="cat"
+                                    :label="cat"
+                                    color="neutral"
+                                    variant="subtle"
+                                    class="rounded-full px-3"
+                                />
+                            </template>
+                        </UBlogPost>
+                    </TransitionGroup>
+                </UPageColumns>
+                <UEmpty
+                    v-else
+                    icon="i-lucide-search"
+                    title="No Projects Found"
+                    description="No projects found in this category."
+                    variant="naked"
+                />
+            </Transition>
         </UContainer>
     </UPage>
 </template>

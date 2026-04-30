@@ -6,7 +6,6 @@ author: "Rasyid Ridho"
 category: "Branding"
 tags: ["sustainability", "branding", "design trends"]
 image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800"
-slug: "the-future-of-sustainable-branding-2025"
 featured: true
 ---
 
