@@ -54,6 +54,9 @@ importers:
       eslint:
         specifier: ^10.3.0
         version: 10.3.0(jiti@2.6.1)
+      nuxt-schema-org:
+        specifier: ^6.0.4
+        version: 6.0.4(08defe29d3dc1d58c297efeeb37bf469)
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
