@@ -153,11 +153,12 @@ const customize = (content: string) => content.replace(/stroke-width="[^"]*"/g, 
                                 <UUser :name="member.name" :description="member.position" :avatar="{ src: member.avatar, alt: member.name, size: '2xl' }" orientation="vertical" size="xl" />
                             </template>
                             <template #footer>
-                                <div v-if="member.linkedin || member.twitter || member.instagram || member.github">
+                                <div v-if="member.linkedin || member.twitter || member.instagram || member.github || member.email">
+                                    <UButton v-if="member.email" icon="i-lucide-mail" variant="ghost" :to="`mailto:${member.email}`" target="_blank" />
+                                    <UButton v-if="member.github" icon="i-lucide-github" variant="ghost" :to="member.github" target="_blank" />
                                     <UButton v-if="member.linkedin" icon="i-lucide-linkedin" variant="ghost" :to="member.linkedin" target="_blank" />
                                     <UButton v-if="member.twitter" icon="i-lucide-twitter" variant="ghost" :to="member.twitter" target="_blank" />
                                     <UButton v-if="member.instagram" icon="i-lucide-instagram" variant="ghost" :to="member.instagram" target="_blank" />
-                                    <UButton v-if="member.github" icon="i-lucide-github" variant="ghost" :to="member.github" target="_blank" />
                                 </div>
                             </template>
                         </UPageCard>
@@ -208,7 +209,7 @@ const customize = (content: string) => content.replace(/stroke-width="[^"]*"/g, 
                 <UPageCTA title="Start Your Journey with Sekeco" description="Partner with us to unlock innovative solutions that drive growth and transform your business." variant="soft" orientation="horizontal">
                     <template #links>
                         <ContactFormModal>
-                            <UButton label="Get a Quote" size="xl" trailing-icon="i-lucide-arrow-right"/>
+                            <UButton label="Get a Quote" size="xl" trailing-icon="i-lucide-arrow-right" />
                         </ContactFormModal>
                         <UButton variant="outline" label="View Our Work" size="xl" trailing-icon="i-lucide-arrow-right" to="/projects" />
                     </template>

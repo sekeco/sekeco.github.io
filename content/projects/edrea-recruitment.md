@@ -5,6 +5,7 @@ published: 2026-04-28
 keywords: "recruitment platform, staffing operations, deployment system, workflow automation, business operations"
 status: "done"
 category: ["Web Development", "UI/UX Design & Development"]
+featured: true
 ---
 
 We developed Edrea Recruitment & Deployment Platform, a unified operations system for recruitment and staffing teams to manage candidate processing, documentation, finance, and deployment with stronger speed and control.

@@ -5,7 +5,6 @@ published: 2026-04-29
 keywords: "quran app, tafsir nusantara, islamic learning, mobile education, multilingual content"
 status: "done"
 category: ["Mobile Apps", "Web Development"]
-featured: true
 ---
 
 We developed Enun to provide seamless mobile access to Quran and Tafsir heritage from Nusantara tradition. Platform supports both scholars and general learners through accessible study experience that combines curated content, interactive tools, and community participation.

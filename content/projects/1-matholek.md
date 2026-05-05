@@ -1,10 +1,12 @@
 ---
 title: "Matholek — Unified Management System for Islamic Boarding Schools"
-description: "Enterprise-grade management information system that consolidates fragmented operations for Islamic boarding schools, enabling real-time visibility into admissions, student records, finance, and discipline across 500+ students and staff."
+description: "Enterprise-grade management information system that consolidates fragmented operations for Islamic boarding schools, enabling real-time visibility into admissions, student records, finance, and discipline across 5000+ students and staff."
 published: 2026-04-29
 keywords: "pesantren management, school administration, educational technology, student lifecycle, admission system, financial tracking, digital transformation"
 status: "production"
 featured: true
+images: ["/projects/matholek.png"]
+class: "lg:col-span-2"
 category: ["Web Development", "UI/UX Design & Development"]
 ---
 
